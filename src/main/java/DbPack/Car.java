@@ -19,8 +19,10 @@ public class Car {
         try {
             Class.forName("com.mysql.jdbc.Driver");
         } catch (Exception e) {
-            System.out.println("Mysql driver can not found!");
+            System.out.println("Mysql driver can not found! ");
         }
+
+
 
 
 
