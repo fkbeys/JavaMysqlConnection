@@ -1,11 +1,13 @@
 package org.javakaya;
 
-import DbPack.Car;
+import Data.RelationalDbManager;
 
 public class Main {
     public static void main(String[] args) {
 
-        Car cc=new Car();
+        RelationalDbManager cc=new RelationalDbManager();
+        cc.Connect();
+        cc.GetData();
 
     }
 }
